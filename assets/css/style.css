@@ -1,7 +1,22 @@
+body {
+    margin: 0;
+}
+
 .container {
     margin: 0 px, 166 px;
 }
 
+.header {
+    background-color: black;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 50px;
+}
+
 .logo {
-    width: 100px;
+    width: 80px;
 }
