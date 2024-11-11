@@ -6,23 +6,3 @@ body {
     line-height: 1.6;
     color: #333;
 }
-
-*,
-*::before,
-*:after {
-    box-sizing: border-box;
-}
-/* Copyright */
-.copyright {
-    padding: 20 px 0;
-
-    border-top: 1 px solid #e5e5e5;
-
-    font-size: 14 px;
-    color: #333;
-    text-align: center;
-}
-
-.copyright span {
-    color: #f38181;
-}
