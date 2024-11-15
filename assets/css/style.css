@@ -11,9 +11,7 @@ body {
     font-family: "Montserrat Alternates", sans-serif;
     font-size: 14px;
     font-weight: 500;
-    /*background-color: #0c1011;*/
-    
-    background-color: var(--black);
+    background-color: white;
     scroll-behavior: smooth;
 }
 
@@ -32,14 +30,14 @@ h1, h2, h3, h4, p {
 
 /* HEADER */
 header {
-    margin-top: 30px;
-    margin: 30px;
+    background-color: var(--black);
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 30px;
 }
 
 .header-content-last {
@@ -120,19 +118,21 @@ main {
 }
 
 .main-content p {
-    color: white;
+    color: var(--black);
     padding-bottom: 30px;
 }
 
 .main-content-buttons a {
     text-decoration: none;
     color: white;
-    background-color: var(--darkGreen);
+    background-color: var(--green);
     border-radius: 35px;
     padding: 10px 25px;
     margin-right: 25px;
+
+    transition: background-color 0.2s linear;
 }
 
-.main-content-buttons a:last-of-type {
-    
+.main-content-buttons a:hover {
+    background-color: var(--darkGreen);
 }
