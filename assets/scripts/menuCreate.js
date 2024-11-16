@@ -61,7 +61,8 @@ function createMenuItem(item) {
 
 async function loadMenu() {
   try {
-    const response = await fetch('/kinza/assets/scripts/menu.json');
+    //const response = await fetch('/kinza/assets/scripts/menu.json');
+    const response = await fetch('/assets/scripts/menu.json');
     const data = await response.json();
 
     const menuContainer = document.getElementById('menu-items');
